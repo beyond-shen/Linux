@@ -25,18 +25,23 @@ bunzip2 filename.bz2
 ```
 ### tar
 压缩:tar 选项　新名　原名
+
 一般常用(对目录的操作)：
+
 １.tar czvf dir.tar.gz dir
 
 注解:c--创建　ｚ--后缀为.tar.gz  v--解压过程可视　　f--指定解压文件
+
 2. tar cjvf dir.tar.bz2 dir
 
 注解:j--后缀为.tar.bz2
+
 3. tar cJvf dir.tar.xz dir
 
 解压: tar xvf dir.tar.后缀名
 
 ## ubuntu下的Deb软件包的基本操作(二进制软件包－－sudo加权限)
+
 1.　组成:软件包名_版本号和修订版本号_运行机器的平台架构.deb
 
 例:sl_3.03-17_amd64.Deb
