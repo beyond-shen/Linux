@@ -138,3 +138,9 @@ $ . ./bashrc  
 3. nvm ls:查看当前使用的是哪个版本
 4. nvm install (-s) version:安装指定的版本的node
 5. nvm use:切换使用版本，默认是system
+
+## 安装全局的express
+
+```
+$  sudo  npm i express-generator -g    //express-generator: 一个提供在命令行中快速搭建应用的全局NPM包.
+```
